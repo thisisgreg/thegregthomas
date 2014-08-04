@@ -247,7 +247,7 @@ input.button:hover {
   font-size: 1em;
   margin: 3.5714286% auto; /* 60 / 1680 */
   padding: 2.3809524%; /* 40 / 1680 */
-  width: 85%%;
+  width: 85em;
   min-height: 400px; /* 400 / 1680 */
 }
 
@@ -342,7 +342,7 @@ h1 a:active {
   margin-right: 225px; /* 225 / 1040 */ 
 }
 
-#content p {
+#content, #players p {
   letter-spacing: 0.2em;
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 100;
@@ -376,14 +376,18 @@ li {
   display: inline;
   float: left;
   display: block;
+  position: relative;
   width: 350px;
-  padding: 0 25px 0 25px;
+  padding: 25px
 }
 
 #albumblock {
+  background-color: rgba(0,0,0,.5);
   margin-right: auto;
   margin-left: auto;
-  width: 85%;
+  margin-top: 100px;
+  width: 65em;
+  height: 450px;
 }
 
 #albums p {
@@ -391,6 +395,14 @@ li {
   letter-spacing: .2em;
   font-weight: 100;
   padding-bottom: 10px;
+  color: white;
+}
+
+#players {
+  position: relative;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #galleryphoto {
@@ -422,6 +434,7 @@ li {
   margin: 3px;
   border: 1px;
 }
+
 
 @media screen and (max-width: 480px) {
   li.logo img {
@@ -512,7 +525,7 @@ li {
   width: 173px;
   }
 }
-@media screen and (min-width: 930px) {
+@media screen and (max-width: 1055px) {
 
-}
+} 
 
