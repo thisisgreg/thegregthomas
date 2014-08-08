@@ -160,7 +160,7 @@ body {
 
 #navigation a:active {
   color: white;
-  background-color: white;
+  background-color: rgba(0,0,0,.5);
 }
 
 #subnav {
